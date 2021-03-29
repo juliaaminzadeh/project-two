@@ -9,26 +9,74 @@
     <title>Powering a Nation</title>
   </head>
   <body>
-    Powering a Nation
-    <nav>
-      <ul>
-        <li><a href="./">Home</a></li>
-        <li><a href="./coal/">Coal</a></li>
-        <li><a href="./wind/">Wind</a></li>
-        <li><a href="./grid/">Grid</a></li>
-        <li><a href="./credits/">Credits</a></li>
+    <nav id="main-nav" class="flex justify-between">
+      <img class="logo" src="./images/logo.png" alt="Powering a nation logo" />
+      <ul id="items" class="flex list-style-none m-0 p-0">
+        <li class="pl-l"><a href="./">Home</a></li>
+        <li class="pl-l"><a href="./coal/">Coal</a></li>
+        <li class="pl-l"><a href="./wind/">Wind</a></li>
+        <li class="pl-l"><a href="./grid/">Grid</a></li>
+        <li class="pl-l"><a href="./credits/">Credits</a></li>
       </ul>
+      <button id="toggle" class="active">Menu</button>
     </nav>
+    <div id="overlay"></div>
     <div>
-      <h1>Powering a Nation: The quest for energy in changing USA</h1>
-      <p>
-        Energy makes America go. <br />
-        But the way we get it is more complex and vulnerable than most of us
-        realize.<br />
-        The truth about energy is that change won't come easily. <br />
-        Here, you can explore America’s energy stories, meet the people behind
-        the debate and join the conversation about our future.
-      </p>
+      <h1>
+        <span style="color: #fbb03b">Powering</span> a
+        <span style="color: #fbb03b">Nation:</span>
+      </h1>
+      <h2>
+        The<span style="color: #fbb03b"> Quest </span> for
+        <span style="color: #fbb03b"> Energy </span> in
+        <span style="color: #fbb03b"> Changing </span> USA
+      </h2>
+      <h3>
+        Energy makes America go. But the way we get it is more complex and
+        vulnerable than most of us realize. The truth about energy is that
+        change won't come easily. Here, you can explore America’s energy
+        stories, meet the people behind the debate and join the conversation
+        about our future.
+      </h3>
+    </div>
+    <div class="power">
+      <div>
+        <img src="./images/coal.jpeg" alt="coal power plant" />
+        <p>
+          The residents of Meigs County, Ohio, live beneath the towering
+          smokestacks of four coal-fired power plants. A fifth plant has been
+          proposed, the latest salvo in a battle over the way the U.S. gets
+          electricity.
+        </p>
+        <button class="button">
+          <a href="./coal/" style="color: white">Read More</a>
+        </button>
+      </div>
+      <div>
+        <img src="./images/wind.jpeg" alt="wind turbine" />
+        <p>
+          Once considered a burden, the wind is now reviving the Texas town of
+          Roscoe by creating new jobs and bringing people back, giving a second
+          chance to this once-dying community.
+        </p>
+        <button class="button">
+          <a href="./wind/index.html" style="color: white">Read More</a>
+        </button>
+      </div>
+      <div>
+        <img src="./images/gridpower.jpeg" alt="power line" />
+        <p>
+          The U.S. energy grid is in trouble. The crumbling infrastructure and
+          lag in construction of power lines have set the stage for more serious
+          and frequent blackouts in the coming years.
+        </p>
+        <button class="button">
+          <a href="./grid/" style="color: white">Read More</a>
+        </button>
+      </div>
     </div>
   </body>
+  <footer>
+    <div></div>
+  </footer>
 </html>

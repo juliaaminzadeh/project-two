@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  background: black;
+  color: white;
+  text-align: center;
+}
+.button {
+  background-color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+.power > div {
+  flex: 1 0;
+  margin: 0 10px;
+  background: #fbb03b;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  width: 100px;
+}
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.list-style-none {
+  list-style: none;
+}
+
+.p-0 {
+  padding: 0;
+}
+.pl-l {
+  padding-left: 1rem;
+  text-decoration: none;
+}
+.m-0 {
+  margin: 0;
+}
+#toggle {
+  display: none;
+  background-color: #fbb03b;
+  font-family: "Courier New", Courier, monospace;
+}
+#overlay {
+  display: none;
+}
+#main-nav {
+  padding: 1rem;
+  box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.16);
+  font-weight: bold;
+}
+/* Desktop Styles */
+@media (min-width: 767px) {
+  .header {
+    display: flex;
+  }
+  .header > * {
+    flex: 1 0;
+  }
+  .hv-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .h-center {
+    display: flex;
+    justify-content: center;
+  }
+  .max-width-400 {
+    max-width: 400px;
+  }
+  .power {
+    display: flex;
+    /*gap: 20px*/
+  }
+  .power > div {
+    flex: 1 0;
+    margin: 0 10px;
+    background: #fbb03b;
+    border: gray;
+  }
+
+  .power > div:first-child {
+    margin-left: 0;
+  }
+  .power > div:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  #items {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    display: none;
+    background: orange;
+    width: 100%;
+  }
+  #items.active {
+    display: block;
+  }
+  #items > li {
+    margin: 1rem 0;
+  }
+  #toggle.active {
+    display: block;
+  }
+}
