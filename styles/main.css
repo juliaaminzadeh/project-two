@@ -8,6 +8,8 @@ body {
 .button {
   background-color: black;
   font-family: "Courier New", Courier, monospace;
+  border-radius: 3px;
+  padding: 10px;
 }
 .power > div {
   flex: 1 0;
@@ -16,6 +18,18 @@ body {
 }
 img {
   width: 100%;
+}
+.caption {
+  font-size: 12px;
+  position: relative;
+  right: 124px;
+  bottom: 13px;
+}
+.caption2 {
+  font-size: 12px;
+  position: relative;
+  right: 50px;
+  bottom: 13px;
 }
 a {
   text-decoration: none;
@@ -60,6 +74,35 @@ a {
   position: sticky;
   top: 0;
   background-color: black;
+}
+.accordion {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  font-family: "Courier New", Courier, monospace;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.align-left {
+  text-align: left;
+  margin: 2em;
+}
+.active,
+.accordion:hover {
+  background-color: white;
+}
+.panel {
+  padding: 0 18px;
+  background-color: #fbb03b;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  color: white;
+  text-align: left;
 }
 /* Desktop Styles */
 @media (min-width: 767px) {

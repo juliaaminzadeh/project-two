@@ -4,18 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <script src="../scripts/navbar.js" defer></script>
     <title>Credits</title>
   </head>
   <body>
-    Credits
-    <nav>
-      <ul>
-        <li><a href="../">Home</a></li>
-        <li><a href="../coal/">Coal</a></li>
-        <li><a href="../wind/">Wind</a></li>
-        <li><a href="../grid/">Grid</a></li>
-        <li><a href="./">Credits</a></li>
+    <nav id="main-nav" class="flex justify-between">
+      <img class="logo" src="../images/logo.png" alt="Powering a nation logo" />
+      <ul ul id="items" class="flex list-style-none m-0 p-0">
+        <li class="pl-l"><a href="../">Home</a></li>
+        <li class="pl-l"><a href="../coal/">Coal</a></li>
+        <li class="pl-l"><a href="../wind/">Wind</a></li>
+        <li class="pl-l"><a href="../grid/">Grid</a></li>
+        <li class="pl-l"><a href="./">Credits</a></li>
       </ul>
+      <button id="toggle" class="active">Menu</button>
     </nav>
+    <div id="overlay"></div>
   </body>
 </html>

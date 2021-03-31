@@ -4,22 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/main.css" />
     <title>Wind</title>
   </head>
   <body>
-    Wind
-    <nav>
-      <ul>
-        <li><a href="../">Home</a></li>
-        <li><a href="../coal/">Coal</a></li>
-        <li><a href="./">Wind</a></li>
-        <li><a href="../grid/">Grid</a></li>
-        <li><a href="../credits/">Credits</a></li>
+    <nav id="main-nav" class="flex justify-between">
+      <img class="logo" src="../images/logo.png" alt="Powering a nation logo" />
+      <ul id="items" class="flex list-style-none m-0 p-0">
+        <li class="pl-l"><a href="../">Home</a></li>
+        <li class="pl-l"><a href="../coal/">Coal</a></li>
+        <li class="pl-l"><a href="./">Wind</a></li>
+        <li class="pl-l"><a href="../grid/">Grid</a></li>
+        <li class="pl-l"><a href="../credits/">Credits</a></li>
       </ul>
+      <button id="toggle" class="active">Menu</button>
     </nav>
+    <div id="overlay"></div>
     <div>
-      <h1>Roping the Wind</h1>
-      <p>
+      <h1>
+        <span style="color: #fbb03b">Roping</span> the
+        <span style="color: #fbb03b">Wind</span>
+      </h1>
+      <p class="align-left">
         Once considered a burden, the wind is now reviving the Texas town of
         Roscoe by creating new jobs and bringing people back, giving a second
         chance to this once-dying community.
