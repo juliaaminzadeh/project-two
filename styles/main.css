@@ -25,6 +25,9 @@ img {
   right: 124px;
   bottom: 13px;
 }
+.linespace {
+  line-height: 2;
+}
 .caption2 {
   font-size: 12px;
   position: relative;
