@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/main.css" />
+    <script src="../scripts/navbar.js" defer></script>
     <title>Grid</title>
   </head>
   <body>
@@ -17,36 +18,44 @@
         <li class="pl-l"><a href="./">Grid</a></li>
         <li class="pl-l"><a href="../credits/">Credits</a></li>
       </ul>
-      <button id="toggle" class="active">Menu</button>
+      <button id="toggle" class="active1">Menu</button>
     </nav>
     <div id="overlay"></div>
     <div>
-      <h1>Down the Lines</h1>
+      <h1>
+        <span style="color: #fbb03b">Down</span> the
+        <span style="color: #fbb03b">Lines</span>
+      </h1>
       <p class="align-left">
         The U.S. energy grid is in trouble. The crumbling infrastructure and lag
         in construction of power lines have set the stage for more serious and
         frequent blackouts in the coming years.
       </p>
     </div>
-    <div class="power">
+    <div>
       <div>
-        <iframe
-          src="https://player.vimeo.com/video/7645659?color=ffffff&title=0&byline=0&portrait=0"
-          width="640"
-          height="360"
-          frameborder="0"
-          allow="autoplay; fullscreen; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-        <p class="caption-2">
-          <a href="https://vimeo.com/7645659"
-            >Down the Lines: Our Delicate Electrical Grid from</a
-          >
-          <a href="https://vimeo.com/poweringanation">Powering a Nation on</a>
-          <a href="https://vimeo.com">Vimeo</a>.
-        </p>
+        <i
+          ><iframe
+            class="responsive"
+            src="https://player.vimeo.com/video/7645659?color=ffffff&title=0&byline=0&portrait=0"
+            width="640"
+            height="360"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <p class="caption-2">
+            <a href="https://vimeo.com/7645659"
+              >Down the Lines: Our Delicate Electrical Grid from</a
+            >
+            <br />
+            <a href="https://vimeo.com/poweringanation">Powering a Nation on</a>
+            <a href="https://vimeo.com">Vimeo</a>.
+          </p></i
+        >
       </div>
       <img
+        class="grid2"
         src="../images/gridpic.jpg"
         alt="working on grid"
         width="100"
@@ -54,4 +63,7 @@
       />
     </div>
   </body>
+  <footer class="space">
+    <div class="smalltext">Website Designed by Julia Aminzadeh for MEJO187</div>
+  </footer>
 </html>

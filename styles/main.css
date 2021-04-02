@@ -4,6 +4,8 @@ body {
   background: black;
   color: white;
   text-align: center;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .button {
   background-color: black;
@@ -26,13 +28,21 @@ img {
   bottom: 13px;
 }
 .linespace {
-  line-height: 2;
+  line-height: 3;
 }
-.caption2 {
+.caption-2 {
   font-size: 12px;
   position: relative;
-  right: 50px;
+  left: 310px;
   bottom: 13px;
+  text-align: left;
+}
+.caption3 {
+  font-size: 12px;
+  position: relative;
+  bottom: 13px;
+  text-align: left;
+  left: 310px;
 }
 a {
   text-decoration: none;
@@ -51,7 +61,9 @@ a {
 .list-style-none {
   list-style: none;
 }
-
+.space {
+  margin: 5rem;
+}
 .p-0 {
   padding: 0;
 }
@@ -61,6 +73,9 @@ a {
 }
 .m-0 {
   margin: 0;
+}
+.smalltext {
+  font-size: 10px;
 }
 #toggle {
   display: none;
@@ -90,6 +105,17 @@ a {
   outline: none;
   transition: 0.4s;
 }
+.accordion:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #fbb03b;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
 .align-left {
   text-align: left;
   margin: 2em;
@@ -97,6 +123,9 @@ a {
 .active,
 .accordion:hover {
   background-color: white;
+}
+.underline {
+  color: #fbb03b;
 }
 .panel {
   padding: 0 18px;
@@ -107,6 +136,11 @@ a {
   color: white;
   text-align: left;
 }
+.grid2 {
+  max-width: 80%;
+  height: auto;
+}
+
 /* Desktop Styles */
 @media (min-width: 767px) {
   .header {
@@ -147,6 +181,10 @@ a {
 }
 
 @media (max-width: 767px) {
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   #items {
     position: absolute;
     top: 50px;
@@ -155,13 +193,42 @@ a {
     background: orange;
     width: 100%;
   }
-  #items.active {
+  #items.active1 {
     display: block;
+  }
+  .grid {
+    max-width: ;
+    height: auto;
+  }
+  .grid2 {
+    max-width: 80%;
+    height: auto;
   }
   #items > li {
     margin: 1rem 0;
   }
-  #toggle.active {
+  #toggle.active1 {
     display: block;
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  .caption {
+    font-size: 8px;
+    bottom: 11px;
+    left: 2px;
+  }
+  .caption3 {
+    font-size: 8px;
+    bottom: 11px;
+    left: 53px;
+  }
+  .caption-2 {
+    font-size: 9px;
+    position: relative;
+    left: 55px;
+    bottom: 11px;
+    text-align: left;
   }
 }
