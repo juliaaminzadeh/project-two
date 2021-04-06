@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 1rem;
   font-family: "Courier New", Courier, monospace;
   background: black;
   color: white;
@@ -26,6 +26,7 @@ img {
   position: relative;
   right: 124px;
   bottom: 13px;
+  text-decoration: underline;
 }
 .linespace {
   line-height: 3;
@@ -33,16 +34,16 @@ img {
 .caption-2 {
   font-size: 12px;
   position: relative;
-  left: 310px;
+  right: 45px;
   bottom: 13px;
-  text-align: left;
+  text-decoration: underline;
 }
 .caption3 {
   font-size: 12px;
   position: relative;
   bottom: 13px;
-  text-align: left;
-  left: 310px;
+  right: 115px;
+  text-decoration: underline;
 }
 a {
   text-decoration: none;
@@ -136,7 +137,7 @@ a {
   color: white;
   text-align: left;
 }
-.grid2 {
+.grid {
   max-width: 80%;
   height: auto;
 }
@@ -197,15 +198,11 @@ a {
     display: block;
   }
   .grid {
-    max-width: ;
-    height: auto;
-  }
-  .grid2 {
     max-width: 80%;
     height: auto;
   }
   #items > li {
-    margin: 1rem 0;
+    margin: 1rem;
   }
   #toggle.active1 {
     display: block;
@@ -213,22 +210,35 @@ a {
   .responsive {
     width: 100%;
     height: auto;
+    overflow-x: hidden;
   }
   .caption {
     font-size: 8px;
+    position: relative;
     bottom: 11px;
     left: 2px;
+    text-decoration: underline;
   }
   .caption3 {
     font-size: 8px;
+    position: relative;
     bottom: 11px;
-    left: 53px;
+    left: 2px;
+    text-decoration: underline;
   }
   .caption-2 {
     font-size: 9px;
     position: relative;
-    left: 55px;
+    left: 5px;
     bottom: 11px;
     text-align: left;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-decoration: underline;
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
   }
 }
