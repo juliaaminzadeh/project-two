@@ -15,6 +15,12 @@ body {
   line-height: 1.5;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
+/* Text Styles */
 h1,
 h2,
 h3,
@@ -30,11 +36,44 @@ a {
   color: var(--theme-white);
 }
 
-img {
-  width: 100%;
-  display: block;
+.underline {
+  color: var(--theme-orange);
 }
 
+.text-orange {
+  color: var(--theme-orange);
+}
+
+.text-white {
+  color: var(--theme-white);
+}
+
+.smalltext {
+  font-size: 10px;
+  text-align: center;
+}
+
+/* Container Styles */
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-lg {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Main Header Styles */
+.main-header {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 0 20px;
+}
+
+/* Button Styles */
 .button {
   background-color: var(--theme-black);
   font-family: "Courier New", Courier, monospace;
@@ -44,6 +83,7 @@ img {
   text-align: center;
 }
 
+/* Cards Styles */
 .power > * {
   background: var(--theme-orange);
   margin-bottom: 20px;
@@ -70,24 +110,7 @@ img {
   margin-top: auto;
 }
 
-.container {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.main-header {
-  max-width: 700px;
-  margin: 4rem auto;
-  padding: 0 20px;
-}
-
-.container-lg {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
+/* Responsive Iframe Styles */
 .aspect-ratio {
   position: relative;
   background: var(--theme-black);
@@ -104,18 +127,7 @@ img {
   height: 100%;
 }
 
-.text-orange {
-  color: var(--theme-orange);
-}
-
-.text-white {
-  color: var(--theme-white);
-}
-
-.logo {
-  width: 150px;
-}
-
+/* Utility Styles */
 .flex {
   display: flex;
 }
@@ -145,17 +157,7 @@ img {
   margin: 0;
 }
 
-.smalltext {
-  font-size: 10px;
-  text-align: center;
-}
-
-#toggle {
-  display: none;
-  background-color: var(--theme-orange);
-  font-family: "Courier New", Courier, monospace;
-}
-
+/* Navbar Styles */
 #main-nav {
   padding: 0 1rem;
   box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.16);
@@ -170,6 +172,17 @@ img {
   align-items: center;
 }
 
+.logo {
+  width: 150px;
+}
+
+#toggle {
+  display: none;
+  background-color: var(--theme-orange);
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Accordion Styles */
 .accordion {
   background-color: var(--theme-white);
   color: var(--theme-black);
@@ -211,10 +224,6 @@ img {
 .active,
 .accordion:hover {
   background-color: var(--theme-white);
-}
-
-.underline {
-  color: var(--theme-orange);
 }
 
 .panel {
