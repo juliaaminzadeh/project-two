@@ -156,10 +156,6 @@ img {
   font-family: "Courier New", Courier, monospace;
 }
 
-#overlay {
-  display: none;
-}
-
 #main-nav {
   padding: 0 1rem;
   box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.16);
