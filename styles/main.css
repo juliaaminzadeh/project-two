@@ -185,6 +185,10 @@ a {
 
 /* Desktop Styles */
 @media (min-width: 767px) {
+  .main-header {
+    text-align: center;
+  }
+
   .power > * {
     flex: 1 0;
     margin-left: 10px;
@@ -360,7 +364,6 @@ img {
   max-width: 700px;
   margin: 4rem auto;
   padding: 0 20px;
-  text-align: center;
 }
 
 .container-lg {
