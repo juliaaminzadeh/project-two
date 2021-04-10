@@ -280,11 +280,11 @@ a {
     margin-left: 10px;
     margin-right: 10px;
   }
-  
+
   .power > *:first-child {
     margin-left: 0;
   }
-  
+
   .power > *:last-child {
     margin-right: 0;
   }
