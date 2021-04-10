@@ -127,6 +127,19 @@ a {
   border: none;
   outline: none;
   transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion:not(:last-of-type) {
+  border-bottom: solid gray 1px;
+}
+
+.accordion b {
+  display: block;
+  max-width: 75ch;
+  padding-right: 20px;
 }
 
 .accordion:after {
