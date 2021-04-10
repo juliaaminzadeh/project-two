@@ -164,11 +164,6 @@ a {
   text-align: left;
 }
 
-.grid {
-  max-width: 80%;
-  height: auto;
-}
-
 /* Desktop Styles */
 @media (min-width: 767px) {
   .power > * {
@@ -334,4 +329,10 @@ img {
   padding: 0 1em 1em 1em;
   justify-self: flex-end;
   margin-top: auto;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
