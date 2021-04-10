@@ -217,11 +217,11 @@ a {
   margin-left: 5px;
 }
 
-.active:after {
+.accordion.active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
-.active,
+.accordion.active,
 .accordion:hover {
   background-color: var(--theme-white);
 }
@@ -252,7 +252,7 @@ a {
     width: 100%;
   }
 
-  #items.active1 {
+  #items.active {
     display: block;
   }
 
@@ -260,7 +260,7 @@ a {
     margin: 1rem;
   }
 
-  #toggle.active1 {
+  #toggle.active {
     display: block;
   }
 }
