@@ -32,34 +32,6 @@ img {
   width: 100%;
 }
 
-.caption {
-  font-size: 12px;
-  position: relative;
-  right: 124px;
-  bottom: 13px;
-  text-decoration: underline;
-}
-
-.linespace {
-  line-height: 3;
-}
-
-.caption-2 {
-  font-size: 12px;
-  position: relative;
-  right: 45px;
-  bottom: 13px;
-  text-decoration: underline;
-}
-
-.caption3 {
-  font-size: 12px;
-  position: relative;
-  bottom: 13px;
-  right: 115px;
-  text-decoration: underline;
-}
-
 a {
   text-decoration: none;
   color: var(--theme-white);
@@ -165,11 +137,6 @@ a {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
-.align-left {
-  text-align: left;
-  margin: 2em;
-}
-
 .active,
 .accordion:hover {
   background-color: var(--theme-white);
@@ -207,29 +174,6 @@ a {
   
   .power > *:last-child {
     margin-right: 0;
-  }
-
-  .header {
-    display: flex;
-  }
-
-  .header > * {
-    flex: 1 0;
-  }
-
-  .hv-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .h-center {
-    display: flex;
-    justify-content: center;
-  }
-
-  .max-width-400 {
-    max-width: 400px;
   }
 
   .power {
@@ -271,56 +215,12 @@ a {
     display: block;
   }
 
-  .grid {
-    max-width: 80%;
-    height: auto;
-  }
-
   #items > li {
     margin: 1rem;
   }
 
   #toggle.active1 {
     display: block;
-  }
-
-  .responsive {
-    width: 100%;
-    height: auto;
-    overflow-x: hidden;
-  }
-
-  .caption {
-    font-size: 8px;
-    position: relative;
-    bottom: 11px;
-    left: 2px;
-    text-decoration: underline;
-  }
-
-  .caption3 {
-    font-size: 8px;
-    position: relative;
-    bottom: 11px;
-    left: 2px;
-    text-decoration: underline;
-  }
-
-  .caption-2 {
-    font-size: 9px;
-    position: relative;
-    left: 5px;
-    bottom: 11px;
-    text-align: left;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    text-decoration: underline;
-  }
-
-  .responsive {
-    width: 100%;
-    height: auto;
-    overflow-x: hidden;
   }
 }
 
